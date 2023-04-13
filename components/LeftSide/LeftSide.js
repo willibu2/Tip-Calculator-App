@@ -54,7 +54,7 @@ const LeftSide = () => {
       <div className={classes['error-container']}>
         <label>Number of People</label>
         {ctx.peopleIsZero && (
-          <p className={classes['error-text']}>Can't be zero</p>
+          <p className={classes['error-text']}>Can`t be zero</p>
         )}
       </div>
       <input
