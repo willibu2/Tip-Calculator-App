@@ -1,0 +1,29 @@
+.big {
+  width: 90%;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 2.5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+  .big {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .big {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .big {
+    padding: 2rem;
+  }
+}

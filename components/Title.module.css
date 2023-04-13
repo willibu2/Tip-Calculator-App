@@ -1,0 +1,12 @@
+.p {
+  font-size: 2rem;
+  margin: 10rem auto 5rem auto;
+  letter-spacing: 1rem;
+  max-width: 10rem;
+}
+
+@media (max-width: 500px) {
+  .p {
+    margin: 3rem auto;
+  }
+}

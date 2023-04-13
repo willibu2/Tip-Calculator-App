@@ -1,0 +1,17 @@
+.tip-percent {
+  font-size: 2rem;
+  background-color: hsl(183, 100%, 15%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tip-percent:hover {
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(185, 41%, 84%);
+}
+
+.active {
+  background-color: hsl(172, 67%, 45%);
+}
