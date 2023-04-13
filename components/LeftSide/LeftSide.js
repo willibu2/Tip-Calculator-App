@@ -14,6 +14,8 @@ const LeftSide = () => {
     ? `${classes['tip-input']} ${classes.error}`
     : `${classes['tip-input']}`;
 
+  const peopleClasses = ctx.peopleIsInvalid ? `${classes.error}` : '';
+
   return (
     <form className={classes.main}>
       <label htmlFor="bill">Bill</label>
@@ -64,6 +66,7 @@ const LeftSide = () => {
         onBlur={ctx.peopleBlurHandler}
         maxLength={9}
         value={ctx.peopleValue}
+        className={peopleClasses}
       />
       <Image
         src="/images/icon-person.svg"
